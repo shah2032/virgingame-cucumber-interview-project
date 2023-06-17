@@ -1,0 +1,808 @@
+[
+  {
+    "comments": [
+      {
+        "line": 3,
+        "value": "#  Feature: TopMenu Test"
+      },
+      {
+        "line": 4,
+        "value": "#    As a  user I want to Join into virgingames website"
+      },
+      {
+        "line": 5,
+        "value": "#    Background:"
+      },
+      {
+        "line": 6,
+        "value": "#      Given I am on homepage"
+      },
+      {
+        "line": 7,
+        "value": "#      And I accept cookies"
+      },
+      {
+        "line": 8,
+        "value": "#"
+      },
+      {
+        "line": 9,
+        "value": "#    Scenario: User should navigate to joining page successfully"
+      },
+      {
+        "line": 10,
+        "value": "#"
+      },
+      {
+        "line": 11,
+        "value": "#      When I click On Online Slots"
+      },
+      {
+        "line": 12,
+        "value": "#      Then I should navigate to Online Slots page"
+      },
+      {
+        "line": 13,
+        "value": "#@smoke"
+      },
+      {
+        "line": 14,
+        "value": "#    Scenario: User should navigate to All Games page successfully"
+      },
+      {
+        "line": 15,
+        "value": "#"
+      },
+      {
+        "line": 16,
+        "value": "#      When I click On All Games"
+      },
+      {
+        "line": 17,
+        "value": "#      Then I should navigate to Online Slots page"
+      }
+    ],
+    "line": 19,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13027056899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 178700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 219699201,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156358101,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180825800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"Online Slots\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Slots",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 633510199,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"Online Slots\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Slots",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13705449599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 51600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133957100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183935600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"Live Casino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Live Casino",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 893193100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"Live Casino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Live Casino",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35358294900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 29600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143855500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204004600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"Casino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Casino",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4980758500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"Casino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Casino",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54838809799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 25400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306039500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195901900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"Online Bingo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Bingo",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 585128800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"Online Bingo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Bingo",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 61792888000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 16700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172508100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244067200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"Free Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Free Games",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 594224700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"Free Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Free Games",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 70941679500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 18700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126667100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176053800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"Poker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Poker",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576589700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"Poker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Poker",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 74293979700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "topmenu;user-should-navigate-to-selected-menu-page;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 26900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137694900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291219500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on any menu from \"All Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Games",
+                  "offset": 26
+                }
+              ],
+              "location": "TopMenuSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 780444500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to selected menu page \"All Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Games",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TopMenu",
+    "description": "As user I want to navigate to selected menu page",
+    "id": "topmenu",
+    "keyword": "Feature",
+    "uri": "TopMenu.feature",
+    "tags": [
+      {
+        "line": 18,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
